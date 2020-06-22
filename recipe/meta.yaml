@@ -20,10 +20,11 @@ requirements:
     - cmake
     - pkg-config
   host:
-    - boost-cpp >=1.72
+    - boost >=1.72
     - eigen
     - flann
     - libode
+    - numpy
   run:
     - libode
     - boost-cpp
